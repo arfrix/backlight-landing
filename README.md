@@ -10,5 +10,5 @@
 
 #### Run sass watcher
 ```
-    npm run sass
+    npm run scss
 ```
