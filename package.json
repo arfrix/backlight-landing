@@ -1,0 +1,23 @@
+{
+  "name": "backlight-landing",
+  "version": "1.0.0",
+  "description": "it's the beginning of our journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss -o src/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arfrix/backlight-landing.git"
+  },
+  "author": "Backlight Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arfrix/backlight-landing/issues"
+  },
+  "homepage": "https://github.com/arfrix/backlight-landing#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
