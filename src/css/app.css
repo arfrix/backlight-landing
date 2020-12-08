@@ -11,6 +11,8 @@ img {
 
 .o-bl {
   background-color: #fafcfb; }
+  .o-bl img {
+    user-select: none; }
   .o-bl__nav {
     width: 100%;
     min-height: 100px;

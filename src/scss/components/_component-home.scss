@@ -2,7 +2,11 @@ $containerSize: 1480px;
 
 .o-bl {
     background-color: #fafcfb;
-  
+    
+    img{
+        user-select: none;
+    }
+
     @include e(nav){
         width: 100%;
         min-height: 100px;
