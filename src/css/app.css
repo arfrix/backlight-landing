@@ -6,6 +6,9 @@ body, html {
 div {
   box-sizing: border-box; }
 
+img {
+  max-width: 100%; }
+
 .o-bl {
   background-color: #fafcfb; }
   .o-bl__nav {
@@ -17,8 +20,8 @@ div {
     position: sticky;
     top: 0; }
   .o-bl__nav-container {
-    flex: 1;
-    max-width: 90%;
+    width: 90%;
+    max-width: 1480px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -43,7 +46,8 @@ div {
   .o-bl__intro-content {
     flex: 0 0 566px; }
   .o-bl__intro-vector {
-    flex: 1; }
+    flex: 1;
+    text-align: left; }
   .o-bl .faker-height {
     height: 1500px;
     background-color: gray;
