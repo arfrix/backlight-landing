@@ -22,8 +22,7 @@ div {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 30px; }
+    justify-content: space-between; }
   .o-bl__nav-menu {
     padding-right: 0; }
     .o-bl__nav-menu > li {
@@ -35,6 +34,7 @@ div {
     align-items: center;
     justify-content: center; }
   .o-bl__intro-section {
+    width: 90%;
     max-width: 1480px;
     margin: 20px auto;
     display: flex;

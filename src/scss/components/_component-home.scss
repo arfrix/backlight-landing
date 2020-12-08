@@ -21,7 +21,6 @@ $containerSize: 1480px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 30px;
     }
   
     @include e(nav-menu){
@@ -41,6 +40,7 @@ $containerSize: 1480px;
     }
 
     @include e(intro-section){
+        width: 90%;
         max-width: $containerSize;
         margin: 20px auto;
         display: flex;
