@@ -1,4 +1,14 @@
-# backlight-landing
-it's the beginning of our journey 
+# Backlight
 
-Hello, Backlight
+## Project usage
+----------------------
+#### Install packages
+```
+    npm install
+```
+----------------------
+
+#### Run sass watcher
+```
+    npm run sass
+```
