@@ -13,7 +13,9 @@ div {
     min-height: 100px;
     box-shadow: 0 10px 50px 0 rgba(230, 230, 230, 0.2);
     background-color: #fafcfb;
-    display: flex; }
+    display: flex;
+    position: sticky;
+    top: 0; }
   .o-bl__nav-container {
     flex: 1;
     max-width: 90%;
@@ -32,3 +34,7 @@ div {
     display: flex;
     align-items: center;
     justify-content: center; }
+  .o-bl .faker-height {
+    height: 1500px;
+    background-color: gray;
+    width: 100%; }

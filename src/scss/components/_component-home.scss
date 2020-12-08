@@ -6,6 +6,9 @@
         box-shadow: 0 10px 50px 0 rgba(230, 230, 230, 0.2);
         background-color: #fafcfb;
         display: flex;
+
+        position: sticky;
+        top: 0;
     }
     @include e(nav-container){
         flex: 1;
@@ -29,5 +32,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .faker-height{
+        height: 1500px;
+        background-color: gray;
+        width: 100%;
     }
 }
