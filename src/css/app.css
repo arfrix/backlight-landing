@@ -34,6 +34,16 @@ div {
     display: flex;
     align-items: center;
     justify-content: center; }
+  .o-bl__intro-section {
+    max-width: 1480px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .o-bl__intro-content {
+    flex: 0 0 566px; }
+  .o-bl__intro-vector {
+    flex: 1; }
   .o-bl .faker-height {
     height: 1500px;
     background-color: gray;
