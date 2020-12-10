@@ -20,7 +20,8 @@ img {
     background-color: #fafcfb;
     display: flex;
     position: sticky;
-    top: 0; }
+    top: 0;
+    z-index: 1000; }
   .o-bl__nav-container {
     width: 90%;
     max-width: 1480px;
@@ -57,7 +58,7 @@ img {
     max-width: 1480px;
     margin: 0 auto; }
   .o-bl__describe-content {
-    flex: 0 0 832px; }
+    flex: 0 0 50%; }
   .o-bl__counter-section {
     display: flex;
     flex-direction: column;
