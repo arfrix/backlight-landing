@@ -1,88 +1,131 @@
 $containerSize: 1480px;
 
 .o-bl {
+  background-color: #fafcfb;
+
+  img {
+    user-select: none;
+  }
+
+  @include e(nav) {
+    width: 100%;
+    min-height: 100px;
+    box-shadow: 0 10px 50px 0 rgba(230, 230, 230, 0.2);
     background-color: #fafcfb;
-    
-    img{
-        user-select: none;
+    display: flex;
+
+    position: sticky;
+    top: 0;
+  }
+
+  @include e(nav-container) {
+    width: 90%;
+    max-width: $containerSize;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @include e(nav-menu) {
+    // For Default UL Padding
+    padding-right: 0;
+    & > li {
+      float: right;
+      list-style: none;
+      margin-left: 30px;
+    }
+  }
+
+  @include e(nav-logo-container) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include e(intro-section) {
+    width: 90%;
+    max-width: $containerSize;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @include e(intro-content) {
+    flex: 0 0 566px;
+  }
+
+  @include e(intro-vector) {
+    flex: 1;
+
+    text-align: left;
+  }
+
+  @include e(describe-section) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: $containerSize;
+    margin: 0 auto;
+  }
+
+  @include e(describe-vector) {
+
+  }
+
+  @include e(describe-content) {
+    flex: 0 0 832px;
+  }
+
+  @include e(counter-section) {
+    display: flex;
+    flex-direction: column;
+    max-width: $containerSize/2;
+    margin: 0 auto;
+    h2 {
+      text-align: center;
+    }
+  }
+
+  @include e(counter-container) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  @include e(counter) {
+    flex: 0 0 240px;
+    padding: 27px 30px;
+    border-radius: 20px;
+    position: relative;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .number {
+
     }
 
-    @include e(nav){
-        width: 100%;
-        min-height: 100px;
-        box-shadow: 0 10px 50px 0 rgba(230, 230, 230, 0.2);
-        background-color: #fafcfb;
-        display: flex;
-
-        position: sticky;
-        top: 0;
-    }
-   
-    @include e(nav-container){
-        width: 90%;
-        max-width: $containerSize;
-
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-  
-    @include e(nav-menu){
-        // For Default UL Padding
-        padding-right: 0;
-        & > li{
-            float: right;
-            list-style: none;
-            margin-left: 30px;
-        }
-    }
-
-    @include e(nav-logo-container){
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    @include e(intro-section){
-        width: 90%;
-        max-width: $containerSize;
-        margin: 20px auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    @include e(intro-content){
-        flex: 0 0 566px;
-    }
-
-    @include e(intro-vector){
-        flex: 1;
-
-        text-align: left;
-    }
-
-    @include e(describe-section){
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: $containerSize;
-        margin: 0 auto;
-    }
-
-    @include e(describe-vector){
+    // todo: arfa should students do this?
+    @include m(blue) {
 
     }
+    @include m(red) {
 
-    @include e(describe-content){
-        flex: 0 0 832px;
     }
+    @include m(purple) {
 
-    // todo: remove
-    .faker-height{
-        height: 1500px;
-        background-color: gray;
-        width: 100%;
     }
+  }
+
+
+  // todo: remove
+  .faker-height {
+    height: 1500px;
+    background-color: gray;
+    width: 100%;
+  }
 }

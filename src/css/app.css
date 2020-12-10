@@ -58,6 +58,26 @@ img {
     margin: 0 auto; }
   .o-bl__describe-content {
     flex: 0 0 832px; }
+  .o-bl__counter-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 740px;
+    margin: 0 auto; }
+    .o-bl__counter-section h2 {
+      text-align: center; }
+  .o-bl__counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .o-bl__counter {
+    flex: 0 0 240px;
+    padding: 27px 30px;
+    border-radius: 20px;
+    position: relative;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
   .o-bl .faker-height {
     height: 1500px;
     background-color: gray;
