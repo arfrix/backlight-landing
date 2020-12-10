@@ -63,6 +63,22 @@ $containerSize: 1480px;
         text-align: left;
     }
 
+    @include e(describe-section){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: $containerSize;
+        margin: 0 auto;
+    }
+
+    @include e(describe-vector){
+
+    }
+
+    @include e(describe-content){
+        flex: 0 0 832px;
+    }
+
     // todo: remove
     .faker-height{
         height: 1500px;

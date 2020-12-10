@@ -50,6 +50,14 @@ img {
   .o-bl__intro-vector {
     flex: 1;
     text-align: left; }
+  .o-bl__describe-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1480px;
+    margin: 0 auto; }
+  .o-bl__describe-content {
+    flex: 0 0 832px; }
   .o-bl .faker-height {
     height: 1500px;
     background-color: gray;
