@@ -76,7 +76,7 @@ $containerSize: 1480px;
   }
 
   @include e(describe-content) {
-    flex: 0 0 832px;
+    flex: 0 0 50%;
   }
 
   @include e(counter-section) {
